@@ -1,0 +1,53 @@
+{
+    "particles":{
+        "number":{
+            "value":200
+        },
+        "color":{
+            "value": "#fff"
+        },
+        "opacity":{
+            "value": 0.5,
+            "random": true
+        },
+        "size":{
+            "value":2,
+            "anim":{
+                "enable":false
+            }
+        },
+        "move":{
+            "enable":true,
+            "speed":5,
+            "random":true
+        
+        },
+        "line_linked":{
+            "enable":true,
+            "width":1,
+            "opacity":0.2
+        }
+        
+    },
+    "interactivity":{
+       "detect_on":"canvas",
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"grab"
+            },
+            "onclick":{
+                "enable":true
+                
+            }
+        },
+        "modes":{
+            "grab":{
+                "distance":150
+            },
+            "repulse":{
+                "distance":20
+            }
+        }
+    }
+}
